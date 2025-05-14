@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "@Muvac1/my-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,4 +12,7 @@
   "dependencies": {
     "hello-world-npm": "^1.1.1"
   }
+    "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+    }
 }
